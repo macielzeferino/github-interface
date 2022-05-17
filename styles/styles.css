@@ -7,3 +7,41 @@
 body {
     background: rgba(5, 16, 39, 1);
 }
+
+main {
+    height: 70vh;
+    width: 100vw;
+}
+
+footer {
+    height: 30vh;
+    width: 100vw;
+    background: white;
+}
+
+header {
+    height: 7rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list-options ul{
+    height: 4rem;
+    width: 45rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-login  ul{
+    height: 4rem;
+    width: 45rem;
+    display: flex
+    justify-content: space-between;
+    
+}
+
+a {
+    color: white;
+}
