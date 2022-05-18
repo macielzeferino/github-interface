@@ -49,27 +49,44 @@ header {
     margin-right: 6rem;
 }
 
-.circle {
-    border-radius: 50%;
-    height: 49rem;
-    width: 49.5rem;
-}
 
-.circle-one{
-    background-color: aquamarine;
-    filter: blur(300px);
-    transform: rotate(133.22deg);
+.circle-one {
+    position: absolute;
+    top: -10rem;
+    left: -30rem;
+    border-radius: 50%;
+    width: 49rem;
+    height: 49.4rem;
+    background-color: aqua;
+    z-index: -1;
 }
 
 .circle-two {
-
+    position: absolute;
+    top: -20rem;
+    right: -24rem;
+    border-radius: 50%;
+    width: 49rem;
+    height: 49.4rem;
+    background-color: silver;
+    z-index: -1;
 }
-
 .circle-three {
-    
+    position: absolute;
+    bottom: 0;
+    right: -24rem;
+    border-radius: 50%;
+    width: 49rem;
+    height: 49.4rem;
+    background-color: rgb(89, 0, 255);
 }
+
 a {
     text-decoration: none;
     color: white;
     font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
 }
