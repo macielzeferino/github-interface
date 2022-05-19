@@ -4,30 +4,27 @@
     font-size: 62.5%;
 
 }
-
 body {
     background: rgba(5, 16, 39, 1);
     overflow: hidden;
 }
-
 main {
     height: 70vh;
     width: 100vw;
 }
-
 footer {
     height: 30vh;
     width: 100vw;
     background: white;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
 }
-
 header {
     height: 7rem;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content:space-between;
 }
-
 .nav-list-options ul{
     display: flex;
     height: 4rem;
@@ -35,58 +32,64 @@ header {
     justify-content: space-between;
     align-items: flex-start;
 }
-
 .nav-list-login  ul{
     height: 4rem;
     width: 45rem;
     display: flex;
     justify-content: space-between;
     text-align: right;
-    
 }
-
 .nav-list-login {
     margin-right: 6rem;
 }
-
-
 .circle-one {
     position: absolute;
     top: -10rem;
     left: -30rem;
     border-radius: 50%;
-    width: 49rem;
-    height: 49.4rem;
-    background-color: aqua;
-    z-index: -1;
+    width: 39rem;
+    height: 39.4rem;
+    background: linear-gradient(327.78deg, rgba(4, 15, 36, 0) 29.53%, rgba(4, 42, 102, 0.79) 48.92%, #042A66 62.56%);
+    filter: blur(300px);
+    transform: rotate(133.22deg);
 }
-
 .circle-two {
     position: absolute;
     top: -20rem;
     right: -24rem;
     border-radius: 50%;
-    width: 49rem;
-    height: 49.4rem;
-    background-color: silver;
-    z-index: -1;
+    width: 39rem;
+    height: 39.4rem;
+    background: linear-gradient(327.78deg, rgba(4, 15, 36, 0) 29.53%, rgba(4, 42, 102, 0.79) 48.92%, #042A66 62.56%);
+    filter: blur(300px);
+    transform: rotate(-108.02deg);
 }
 .circle-three {
+    width: 39rem;
+    height: 39.4rem;
     position: absolute;
     bottom: 0;
     right: -24rem;
     border-radius: 50%;
-    width: 49rem;
-    height: 49.4rem;
-    background-color: rgb(89, 0, 255);
+    background: linear-gradient(327.78deg, rgba(4, 15, 36, 0) 29.53%, rgba(70, 31, 72, 0.79) 48.92%, #461F48 62.56%);
+    filter: blur(280px);
+    transform: rotate(-108.02deg);
 }
-
+.each-img {
+    position: absolute;
+    top: 10rem;
+    right: 41rem;
+}
+.middlw-img {
+    position: absolute;
+    right: 20rem;
+    bottom: 19rem;
+}
 a {
     text-decoration: none;
     color: white;
     font-size: 1.6rem;
 }
-
 li {
     list-style: none;
 }
