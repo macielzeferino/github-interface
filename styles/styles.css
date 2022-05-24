@@ -80,13 +80,13 @@ header {
 }
 .each-img {
     position: absolute;
-    top: 5rem;
-    right: 40rem;
+    top: 8rem;
+    right: 35rem;
 }
 .middlw-img {
     position: absolute;
-    right: 20rem;
-    bottom: 19rem;
+    right: 14rem;
+    bottom: 18.6rem;
 }
 .container-paragraph {
     width: 60rem;
@@ -120,7 +120,7 @@ header {
     height: 4.3rem;
 }
 #button-search {
-    width: 15rem;
+    width: 20rem;
     height: 4rem;
     background: #2EA44F;
     border-radius: 1rem;
@@ -131,6 +131,7 @@ header {
     padding: 1.5rem 1.4rem;
     color: #fff;
     font-weight: 300;
+	font-size: 2rem;
 }
 #input-main {
     width: 30rem;
@@ -166,32 +167,31 @@ a {
 }
 li {
 	list-style: none;
-	padding: ;
     display: flex;
     align-items: center;
 }
-
-h2 {
-	max-width: 480px;
-	text-align: center;
-	margin: 60px auto;
-	font-family: 'Courier New', Courier, monospace;
-	color: #fff;
+.title-effect {
+    text-justify: distribute;
+    font-size: 4rem;
+    text-align:right;
+    font-family:'Courier New', Courier, monospace;
+    color:rgba(5, 16, 39, 1);
+    position:absolute;
+    margin-top: 10rem;
+    margin-left: 18rem;
+    margin-right: auto;
 }
-
-h2::after {
-	content: '|';
-	opacity: 1;
-	margin-left: 5px;
-	display: inline-block;
-	animation: blink .7s infinite;
+.title-effect:after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: flash .7s infinite;
 }
-
-@keyframes blink {
-	0%, 100% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0;
-	}
+@keyframes flash {
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
 }
